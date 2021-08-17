@@ -26,7 +26,7 @@
           },
           "initialDelaySeconds": 15,
           "volumeMounts": {
-            "/app/public/uploads": "bjyblog-cfs"
+            "/app/storage": "bjyblog-cfs"
           }
         }
       }
