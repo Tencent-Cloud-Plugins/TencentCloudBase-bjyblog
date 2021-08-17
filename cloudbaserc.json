@@ -11,7 +11,7 @@
           "servicePath": "/",
           "uploadType": "image",
           "imageInfo": {
-            "imageUrl": "ccr.ccs.tencentyun.com/tcbimages/bjyblog-tcb:3.0"
+            "imageUrl": "ccr.ccs.tencentyun.com/tcbimages/bjyblog-tcb:1.0.0"
           },
           "containerPort": 80,
           "customLogs": "stdout,/dev/stdout,/dev/stderr",
@@ -26,7 +26,7 @@
           },
           "initialDelaySeconds": 15,
           "volumeMounts": {
-            "/app/storage/app/public/uploads ": "bjyblog-cfs"
+            "/app/bjyblog ": "bjyblog-cfs"
           }
         }
       }
