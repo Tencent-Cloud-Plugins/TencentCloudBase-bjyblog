@@ -49,7 +49,7 @@
         "ADMIN_NAME": {
           "description": "后台管理系统管理员账号",
           "required": true,
-          "default": "admin"
+          "default": "admin@admin.com"
         },
         "ADMIN_PASS": {
           "description": "后台管理系统管理员密码",
