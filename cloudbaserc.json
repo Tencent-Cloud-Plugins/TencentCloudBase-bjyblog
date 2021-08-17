@@ -24,7 +24,7 @@
             "SITE_URL": "https://${TcbHttpServiceDefaultDomain}",
             "TCB_NOT_SHOW_CYNOS_DB": "${Outputs.bjyblog.Properties.InstanceId}"
           },
-          "initialDelaySeconds": 15,
+          "initialDelaySeconds": 20,
           "volumeMounts": {
             "/app/bjyblog ": "bjyblog-cfs"
           }
